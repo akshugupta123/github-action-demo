@@ -1,7 +1,8 @@
 {
-  "name" : "github-action-demo" ,
-  "version" : "1.0.0" ,
-  "scripts" : {
-    "test" : "node test.js"
+  "name": "devops-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
