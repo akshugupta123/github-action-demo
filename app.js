@@ -1,5 +1,8 @@
-function add(a,b) {
-   return a + b ;
-}
+const express = require("express");
+const app = express();
 
-module.exports = add;
+app.get("/", (req, res) => {
+  res.send("Hello Akshu Kubernetes 🚀");
+});
+
+app.listen(3000);
