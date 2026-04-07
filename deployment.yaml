@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: akshugupta/myapp
+          image: akshugupta123/myapp
           ports:
             - containerPort: 3000
