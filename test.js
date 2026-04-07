@@ -1,6 +1,5 @@
 const add = require('./app');
-
-if (add(2,3) !== 5) {
-  throw new Error("Test failed");
+if (add(2, 3) !== 5) {
+ throw new Error("Test Failed");
 }
-console.log("Test passed");
+console.log("Test Passed");
